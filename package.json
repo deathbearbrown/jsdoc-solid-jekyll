@@ -1,22 +1,19 @@
 {
-  "name": "minami",
-  "version": "1.1.1",
-  "description": "Clean and minimal JSDoc 3 Template / Theme",
+  "name": "jsdoc-solid-jekyll",
+  "version": "1.0.0",
+  "description": "A documentation theme for exporting into Solid Community Jekyll theme for JSDoc 3.",
   "main": "publish.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nijikokun/minami.git"
+    "url": "https://github.com/deathbearbrown/jsdoc-solid-jekyll.git"
   },
-  "author": "Nijiko Yonskai <nijikokun@gmail.com>",
+  "author": "Sue Lockwood <deathbearbrown@gmail.com>",
   "licenses": [{
     "type": "Apache-2.0",
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
   }],
   "bugs": {
-    "url": "https://github.com/Nijikokun/minami/issues"
+    "url": "https://github.com/deathbearbrown/jsdoc-solid-jekyll/issues"
   },
-  "homepage": "https://github.com/Nijikokun/minami"
+  "homepage": "https://github.com/deathbearbrown/jsdoc-solid-jekyll"
 }

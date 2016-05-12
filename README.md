@@ -1,28 +1,21 @@
-# Minami
+# JSdoc Solid Jekyll
 
-A clean, responsive documentation template theme for JSDoc 3.
+A documentation theme for exporting into Solid Community Jekyll theme for JSDoc 3.
+Based off minami theme templates.
 
-![Minami Screenshot](http://puu.sh/gOyNe/66c3adcb97.png)
 
 ## Uses
 
 - [the Taffy Database library](http://taffydb.com/)
 - [Underscore Template library](http://documentcloud.github.com/underscore/#template)
-- [Montserrat](http://www.google.com/fonts/specimen/Monsterrat) & Helvetica Neue
+
 
 ## Install
 
 ```bash
-$ npm install --save-dev minami
+$ npm install --save-dev jsdoc-solid-jekyll
 ```
 
-## Usage
-
-Clone repository to your designated `jsdoc` template directory, then:
-
-```bash
-$ jsdoc entry-file.js -t path/to/minami
-```
 
 ### Node.js Dependency
 
@@ -38,7 +31,7 @@ In your `.jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/minami"
+  "template": "node_modules/jsdoc-solid-jekyll"
 }
 ```
 
@@ -67,11 +60,7 @@ In your `.jsdoc.json` file, add a template option.
         "encoding": "utf8",
         "private": true,
         "recurse": true,
-        "template": "./node_modules/minami"
+        "template": "./node_modules/jsdoc-solid-jekyll"
     }
 }
 ```
-
-## License
-
-Licensed under the Apache2 license.
