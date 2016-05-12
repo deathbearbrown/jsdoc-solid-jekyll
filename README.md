@@ -9,14 +9,9 @@ Based off minami theme templates.
 - [the Taffy Database library](http://taffydb.com/)
 - [Underscore Template library](http://documentcloud.github.com/underscore/#template)
 
+Don't use this, it's not ready
 
-## Install
-
-```bash
-$ npm install --save-dev jsdoc-solid-jekyll
-```
-
-
+~~
 ### Node.js Dependency
 
 In your projects `package.json` file add a generate script:
@@ -64,3 +59,4 @@ In your `.jsdoc.json` file, add a template option.
     }
 }
 ```
+~~
